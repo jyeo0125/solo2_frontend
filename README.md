@@ -16,6 +16,7 @@ After the user sing-in the homepage, the user can see the writable section, save
 
 ## Wirefram
 ![wire](./picformd/img1.png)
+![wire](./picformd/img1-1.png)
 ![wire2](./picformd/img2.png)
 
 ## MVP of Private Notebook
