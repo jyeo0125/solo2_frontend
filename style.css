@@ -1,8 +1,6 @@
-* {
-    border: 1px solid;
-}
+
 .hidden {
-    display: none;
+    display: none !important;
 }
 #titleDiv{
     display: flex;
@@ -17,6 +15,31 @@
     align-items: center;
     
 }
+#loginMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#signUpMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#middlePage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#textPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #titleBox {
     width: 100px;
     height: 20px;
@@ -24,4 +47,10 @@
 #contentBox {
     width: 80vw;
     height: 50vh;
+}
+#createButton{
+    margin-top: 30px;
+}
+#postSaveButton{
+    margin-top: 30px;
 }
