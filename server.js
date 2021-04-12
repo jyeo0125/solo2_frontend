@@ -18,13 +18,13 @@ app.get('/', (req, res) => {
 app.get('/main.js', (req, res) => {
   const filepath = path.join(__dirname, 'main.js')
 
-  if (process.env.NODE_ENV === 'production')
+  if (process.env.NODE_ENV === 'production'){
   await replaceInFile({
       files: filepath,
       from:'http://localhos:3001',
       to:'https://solo2-backend.herokuapp.com'
   })
-
+}
   res.sendFile(filepath)
 })
 
