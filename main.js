@@ -73,10 +73,10 @@ document.querySelector('#postSaveButton').addEventListener('click', async (event
    }) 
    
 
-   const allPost = async (data) => {
-       let postContainer = document.querySelector('#postContainer')
-        while (postContainer)
-   }
+//    const allPost = async (data) => {
+//        let postContainer = document.querySelector('#postContainer')
+//         while (postContainer)
+//    }
   
    
    /////////////////show post button////////////////////////
