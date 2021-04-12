@@ -8,8 +8,9 @@
     <title>Persoanl Note!</title>
 </head>
 <body>
-<div id='signUpMain'>
-    <form id='signUpForm'>
+<div id='signUpMain' class='hidden'>
+    <h1> SignUp </h1>
+    <form id='signupForm'>
         <label for = 'email for signup'>e-mail</label>
         <input type='text' id ='signupEmail'>
 
@@ -20,11 +21,44 @@
 
     </form>
 </div>
-<div id='landingPage'>
+<div id ='loginMain'>
+    <h1>Mainpage</h1>
+    <form id='loginForm'>
+        <label for = 'email for login'>e-mail</label>
+        <input type='text' id ='loginEmail'>
+
+        <label for ='login for signup'>password</label>
+        <input type='password' id='loginPassword'>
+
+        <input type="submit" value=" login">
+    </form>
+    <input  id ="createButton" type="button" value='Create Account'>
+
+</div>
+<div id='middlePage' class='hidden'>
+    <h1>after login page</h1>
+    <input id="newpostButton" type="button" value="newpost">
+    <input id ="logoutButton" type='button' value="logout">
+    <div id='postContainer'>
+    <input id="showButton" type='button' value="show posts">
+    </div>
+
+</div>
+<div id = 'textPage' class='hidden'>
+    <h1>note page</h1>
+   <div id ='titleDiv'>
+       <label for='title'>title</label>
+       <input id ='titleBox' type="text" value ='title'>
+   </div> 
+   <div id = 'contentDiv'> 
+    <label for='title'>content</label>
+    <input id='contentBox'type="text" value ='content'>
+   </div>
+   <input id ="postSaveButton"type="button" value="save">
 
 </div>
 
-
+<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js "></script>
 <script async defer src="./main.js"></script>
 </body>
 </html>

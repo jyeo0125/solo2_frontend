@@ -1,0 +1,27 @@
+* {
+    border: 1px solid;
+}
+.hidden {
+    display: none;
+}
+#titleDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contentDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#titleBox {
+    width: 100px;
+    height: 20px;
+}
+#contentBox {
+    width: 80vw;
+    height: 50vh;
+}

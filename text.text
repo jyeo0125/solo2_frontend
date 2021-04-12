@@ -1,0 +1,23 @@
+(done)
+1. sing up page with create button
+2. landing page (login button) and sing up botton
+3. after login page (user can see the post and create newpost)
+4. create newpost button navigate to note page
+5. note page have title section content section and save button
+6. savebutton in note page must save usrId (localstrage)
+7. when user click the logout button the page go to main(landing) page and localstrage clear(no saved user id)
+
+(need to to)
+1. after login page need to show the post and title with
+edit and delte button.
+(use apend to make new dev ?? )
+
+
+
+
+(strech goal)
+1. css (format of page and cusor)
+2. sound (click)
+3. img file? maybe 
+
+
