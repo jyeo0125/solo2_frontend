@@ -1,6 +1,12 @@
-
+*{
+    border: solid 1px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+}
 .hidden {
-    display: none !important;
+    /* display: none !important; */
 }
 #titleDiv{
     display: flex;
@@ -53,4 +59,14 @@
 }
 #postSaveButton{
     margin-top: 30px;
+}
+/* #editButtons{
+    } */
+/* 
+#delButtons{
+    width: 500px;
+} */
+#contentInTheBox{
+    width: 500px;
+    height: 300px;
 }
