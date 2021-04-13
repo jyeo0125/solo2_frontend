@@ -5,6 +5,7 @@ document.querySelector('#logoutButton').addEventListener('click', ()=> {
   
     document.querySelector('#loginMain').classList.remove('hidden')
     document.querySelector('#middlePage').classList.add('hidden')
+    location.reload()
 })
 //////////////////////////Newpost button///////////////////
 document.querySelector('#newpostButton').addEventListener('click', ()=> {
@@ -71,6 +72,7 @@ document.querySelector('#postSaveButton').addEventListener('click', async (event
     ('hidden')
     document.querySelector('#loginMain').classList.add('hidden')
     document.querySelector('#textPage').classList.add('hidden')
+    
    }) 
    
 ///////////////get all post by userId////////////////

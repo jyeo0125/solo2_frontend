@@ -1,12 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Dancing+Script&display=swap');
 *{
-    border: solid 1px;
+    /* border: solid 1px; */
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+h2{
+    font-family: 'ABeeZee', sans-serif;
+}
+label{
+    font-family: 'ABeeZee', sans-serif;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .box{
     width: 100px;
     height: 100px;
 }
 .hidden {
-    /* display: none !important; */
+    display: none !important;
 }
 #titleDiv{
     display: flex;
@@ -56,17 +68,32 @@
 }
 #createButton{
     margin-top: 30px;
+    font-family: 'ABeeZee', sans-serif;
+    
+}
+#newpostButton,#logoutButton,#showButton{
+    font-family: 'ABeeZee', sans-serif;
 }
 #postSaveButton{
     margin-top: 30px;
+    font-family: 'ABeeZee', sans-serif;
 }
-/* #editButtons{
-    } */
-/* 
+#editButtons{
+    font-family: 'ABeeZee', sans-serif;
+    margin: 15px;
+    } 
 #delButtons{
-    width: 500px;
-} */
+    font-family: 'ABeeZee', sans-serif;
+    
+}
 #contentInTheBox{
     width: 500px;
     height: 300px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
