@@ -70,10 +70,15 @@ label{
 #titleBox {
     width: 100px;
     height: 20px;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 23px;
 }
 #contentBox {
     width: 80vw;
     height: 50vh;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 19px;
+
 }
 #createButton{
     margin-top: 30px;
@@ -122,6 +127,16 @@ label{
 #postSaveButton{
     margin-top: 30px;
     font-family: 'ABeeZee', sans-serif;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    transition-duration: 0.4s;
+}
+#postSaveButton:hover{
+    background-color:gray;
+    color: white;
+    font-size: 25px;
 }
 #editButtons{
     font-family: 'ABeeZee', sans-serif;

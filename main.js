@@ -1,4 +1,4 @@
-
+// function reloadDiv(){$('#postDIV').load(self)}
 ///////////////////////////logout/////////////////////////
 document.querySelector('#logoutButton').addEventListener('click', ()=> {
     localStorage.clear()
@@ -85,6 +85,7 @@ document.querySelector('#showButton').addEventListener('click', async (event) =>
             // console.log(post.content)
             let postContainer = document.querySelector('#postContainer')
             let div = document.createElement('div')
+            div.setAttribute("id", "postDIV")
             
             let postTitle = document.createElement('h2')
             postTitle.innerText = post.title
@@ -119,12 +120,12 @@ document.querySelector('#showButton').addEventListener('click', async (event) =>
                 console.log(post)
                 await axios.delete(`http://localhost:3001/users/${localStorage.userId}/delete/${post.id}`)
                 
+                
             })
             div.append(delButton)
 
 
-            postContainer.append(div)
-            
+           
         }
         // console.log(response.data.post[0].title)
         // console.log(response)
