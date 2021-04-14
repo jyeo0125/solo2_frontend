@@ -1,4 +1,4 @@
-// function reloadDiv(){$('#postDIV').load(self)}
+
 ///////////////////////////logout/////////////////////////
 document.querySelector('#logoutButton').addEventListener('click', ()=> {
     localStorage.clear()
@@ -125,6 +125,7 @@ document.querySelector('#showButton').addEventListener('click', async (event) =>
             div.append(delButton)
 
 
+            postContainer.append(div)
            
         }
         // console.log(response.data.post[0].title)
