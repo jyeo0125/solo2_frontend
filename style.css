@@ -1,9 +1,13 @@
 @import url('//fonts.googleapis.com/css2?family=ABeeZee&family=Dancing+Script&display=swap');
+body{
+    background-color: rgba(171, 174, 177, 0.795);
+    }
 *{
     /* border: solid 1px; */
 }
 h1{
     font-family: 'Dancing Script', cursive;
+    font-size: 50px;
 }
 h2{
     font-family: 'ABeeZee', sans-serif;
@@ -19,6 +23,11 @@ label{
 }
 .hidden {
     display: none !important;
+    
+}
+.inputLogin{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 17px;
 }
 #titleDiv{
     display: flex;
@@ -69,10 +78,46 @@ label{
 #createButton{
     margin-top: 30px;
     font-family: 'ABeeZee', sans-serif;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    transition-duration: 0.4s;
     
+}
+#createButton:hover{
+    background-color:gray;
+    color: white;
+    font-size: 25px;
+}
+#loginButton{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border: 1px solid ;
+    margin-left: 10px;
+    transition-duration: 0.4s;
+}
+#loginButton:hover{
+    background-color:gray;
+    color: white;
+    font-size: 25px;
 }
 #newpostButton,#logoutButton,#showButton{
     font-family: 'ABeeZee', sans-serif;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    transition-duration: 0.4s;
+}
+#newpostButton:hover,#logoutButton:hover,#showButton:hover{
+    background-color:gray;
+    color: white;
+    font-size: 35px;
+
 }
 #postSaveButton{
     margin-top: 30px;
@@ -81,16 +126,43 @@ label{
 #editButtons{
     font-family: 'ABeeZee', sans-serif;
     margin: 15px;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border: 1px solid
     } 
 #delButtons{
+
     font-family: 'ABeeZee', sans-serif;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border: 1px solid
     
 }
 #contentInTheBox{
     width: 500px;
     height: 300px;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border: 1px solid
 }
-
+#singupButton{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    transition-duration: 0.4s;
+}
+#singupButton:hover{
+    background-color:gray;
+    color: white;
+    font-size: 20px;
+}
 div{
     display: flex;
     flex-direction: column;

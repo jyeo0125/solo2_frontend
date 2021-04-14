@@ -118,6 +118,7 @@ document.querySelector('#showButton').addEventListener('click', async (event) =>
                 console.log(post.id)
                 console.log(post)
                 await axios.delete(`http://localhost:3001/users/${localStorage.userId}/delete/${post.id}`)
+                
             })
             div.append(delButton)
 
