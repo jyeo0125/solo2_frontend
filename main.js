@@ -79,6 +79,7 @@ document.querySelector('#postSaveButton').addEventListener('click', async (event
 document.querySelector('#showButton').addEventListener('click', async (event) =>{event.preventDefault()
     try {
         const response = await axios.get(`http://localhost:3001/posts/${localStorage.userId}`)
+        
         for (let post of response.data.post){
             // console.log(post)
             // console.log(post.title)
@@ -119,6 +120,7 @@ document.querySelector('#showButton').addEventListener('click', async (event) =>
                 console.log(post.id)
                 console.log(post)
                 await axios.delete(`http://localhost:3001/users/${localStorage.userId}/delete/${post.id}`)
+                
                 
                 
             })

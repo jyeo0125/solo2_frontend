@@ -20,7 +20,7 @@ app.get('/main.js',async (req, res) => {
   if (process.env.NODE_ENV === 'production'){
     await replaceInFile({
     files: filepath,
-    from:'http://localhos:3001',
+    from:'http://localhost:3001',
     to:'https://solo2-backend.herokuapp.com'
 })
   }
